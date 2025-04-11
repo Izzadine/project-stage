@@ -1,0 +1,12 @@
+.footer {
+    position: fixed;  /* Fixe le footer en bas */
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    z-index: 1000; /* S'assure qu'il reste au-dessus */
+  }
+  

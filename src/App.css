@@ -1,0 +1,158 @@
+body{
+  background: linear-gradient(to bottom,#e3f2fd, #ffffff);
+  margin: 0px !important;
+}
+.yasqe .yasqe_buttons .yasqe_queryButton {
+    display: none !important;
+    
+}
+
+.yasqe .yasqe_buttons .yasqe_share{
+    display: none !important;
+}
+
+button:hover{
+  transform: scale(1.05);
+  transition: 0.2s;
+}
+
+.editor2{
+  width: 100%;
+  max-width: 100%;
+  overflow: auto;
+  white-space: pre-wrap;
+}
+
+.col-md-6{
+  max-width: 50%;
+  flex: 0 0 50%
+}
+
+.navbar{
+  transition: all 0.3s ease-in-out, box-shadow 0.3s ease-in-out ;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.navbar-nav .nav-link {
+  font-size: 1.1rem;
+  transition: color 0.3s ease-in-out;
+}
+
+.navbar-nav .nav-link:hover{
+  color: #f8d210;
+}
+
+.bg-transparent {
+  background: rgba( 0, 0, 0, 0.1);
+}
+
+.bg-dark {
+  background: rgba( 0, 0, 0, 0.9);
+}
+
+
+
+.slick-prev {
+    display: block !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+    position: absolute !important;
+    left: 10px !important;  /* 🔥 Essaye de rapprocher la flèche */
+    z-index: 1000 !important;
+    width: 40px !important;
+    height: 40px !important;
+    /* background-color: red !important; 🔥 La rendre visible */
+  }
+  
+  .history-title {
+    text-align: center; /* Centrer le texte */
+    font-size: 24px; /* Ajuster la taille si besoin */
+    font-weight: bold; /* Rendre le titre plus visible */
+    color: red; /* Conserver la couleur actuelle */
+    margin-bottom: 10px; /* Ajouter un petit espace sous le titre */
+  }
+
+  .query-slider {
+    display: flex;
+    justify-content: center; /* Centrer horizontalement */
+    align-items: center; /* Centrer verticalement */
+    height: 100px; /* Ajuste selon la taille souhaitée */
+    text-align: center; /* Assurer l'alignement du texte */
+    font-family: monospace; /* Garder le style du code */
+    font-size: 18px; /* Ajuster la taille si nécessaire */
+  }
+  
+.editor2 {
+    width: 700px !important;
+    height: 300px !important;
+    border: 1px solid #1e1e1e !important;
+}
+
+.query-navigator{
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  font-size: 18px;
+  justify-content: center;
+}
+
+.query-navigator .circle{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #007bff;
+  color: white;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 4px 8px rgba( 0, 0, 0, 0.2);
+}
+
+.query-navigator button{
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  font-size: 22px;
+  border: none;
+  background-color: gray;
+  box-shadow: 0px 2px 5px rgba( 0, 0, 0, 0.2);
+  transition: all 0.2s ease-in-out;
+}
+
+.query-navigator button:hover{
+  background-color: #007bff;
+  color: white;
+}
+
+.query-navigator button:disabled{
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.card-header{
+  background-color: #343a40 !important;
+  color: #ffffff;
+}
+
+.card-body{
+  background-color: #1e1e1e;
+  border: 1px solid #ddd;
+}
+
+.btn-primary{
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.btn-danger{
+  background-color: #dc3545;
+  border: 1px solid #ddd;
+}
+
+

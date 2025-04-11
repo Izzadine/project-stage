@@ -1,0 +1,15 @@
+button:hover{
+    border-radius: 10px;
+    background-color: #04AA6D;
+    color: green;
+}
+
+button{
+    border-radius: 5px;
+    background-color: rgb(71, 248, 95);
+}
+
+.yasgui .controlbar .execute {
+    display: none !important;
+  }
+  
